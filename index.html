@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rishad Tournament App</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9fafb;
+      color: #111827;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+      padding: 40px 30px;
+      text-align: center;
+      max-width: 420px;
+      width: 100%;
+      animation: fadeIn 1s ease;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    .logo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      object-fit: cover;
+      box-shadow: 0 0 15px rgba(37,99,235,0.4);
+    }
+
+    h1 {
+      color: #2563eb;
+      font-size: 26px;
+      margin-bottom: 8px;
+    }
+
+    h2 {
+      color: #475569;
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 15px;
+      color: #334155;
+      margin-bottom: 25px;
+      line-height: 1.6;
+    }
+
+    .download-btn {
+      display: inline-block;
+      background: linear-gradient(135deg, #3b82f6, #2563eb);
+      color: #fff;
+      padding: 14px 35px;
+      border-radius: 30px;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 6px 15px rgba(37,99,235,0.4);
+      transition: all 0.3s ease;
+    }
+
+    .download-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 25px rgba(37,99,235,0.6);
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #6b7280;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <!-- 🔹 এখানে তোমার Rishad.jpeg ছবি বসানো হয়েছে -->
+    <img src="Rishad.jpeg" alt="Tournament Logo" class="logo">
+
+    <h1>🏆 Rishad Cup 2025</h1>
+    <h2>Official Tournament App</h2>
+    <p>
+      🎮 টুর্নামেন্টের আপডেট, ম্যাচ লিস্ট, রেজাল্ট ও পুরস্কার সংক্রান্ত সব তথ্য এক অ্যাপে!  
+      নিচের বাটনে ক্লিক করে অফিসিয়াল অ্যাপটি ডাউনলোড করুন।
+    </p>
+
+    <!-- এখানে তোমার আসল ডাউনলোড লিংক দাও -->
+    <a href="https://www.mediafire.com/view/odzadjdkiiozl6p/Rishad.jpeg/file" class="download-btn">⬇️ Download App</a>
+  </div>
+
+  <footer>
+    © 2025 Rishad Tournament | Designed by ❤️ Rishad
+  </footer>
+
+</body>
+  </html>
